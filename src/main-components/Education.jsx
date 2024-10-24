@@ -1,4 +1,4 @@
-import logo from "../assets/images/AU-logo2.png"
+import logo from "/assets/images/AU-logo2.png"
 
 export default function Education() {
   return (
