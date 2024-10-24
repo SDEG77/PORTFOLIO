@@ -1,6 +1,6 @@
 // import React from "react";
-import myself from "/assets/images/self-portrait.png"
-import logo from "/assets/images/AU-logo2.png"
+import myself from "../../public/assets/images/self-portrait.png"
+import logo from "../../public/assets/images/AU-logo2.png"
 
 
 export default function About() {

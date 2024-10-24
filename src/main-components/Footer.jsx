@@ -1,6 +1,6 @@
-import FB from "/assets/images/facebook-logo.png"
-import Insta from "/assets/images/instagram-logo.png"
-import LinkedIn from "/assets/images/linkedin-logo.png"
+import FB from "../../public/assets/images/facebook-logo.png"
+import Insta from "../../public/assets/images/instagram-logo.png"
+import LinkedIn from "../../public/assets/images/linkedin-logo.png"
 
 export default function Footer () {
   return (

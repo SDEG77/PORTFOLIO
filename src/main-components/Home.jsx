@@ -1,5 +1,5 @@
 // import React from 'react';
-import MyGraphic from "/assets/images/logo.png"
+import MyGraphic from "../../public/assets/images/logo.png"
 
 export default function home_page() {
   return (

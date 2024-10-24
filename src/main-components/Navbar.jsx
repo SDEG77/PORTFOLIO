@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-import logo from "/assets/images/logo-only.png"
+import logo from "../../public/assets/images/logo-only.png"
 
 export default function Navbar() {
   const [about, setAbout] = useState(false);
