@@ -1,18 +1,18 @@
-import python from "../../public/assets/images/python-logo.png";
-import php from "../../public/assets/images/PHP-logo.png";
-import java from "../../public/assets/images/java-logo.png";
-import html from "../../public/assets/images/html-logo.png";
-import css from "../../public/assets/images/css-logo.png";
-import mysql from "../../public/assets/images/MySQL-Logo.png";
-import medibang from "../../public/assets/images/medibang-logo.png";
-import javascript from "../../public/assets/images/Javascript-Logo.png";
-import android from "../../public/assets/images/android-studio-logo.png";
+import python from "/dist/assets/images/python-logo.png";
+import php from "/dist/assets/images/PHP-logo.png";
+import java from "/dist/assets/images/java-logo.png";
+import html from "/dist/assets/images/html-logo.png";
+import css from "/dist/assets/images/css-logo.png";
+import mysql from "/dist/assets/images/MySQL-Logo.png";
+import medibang from "/dist/assets/images/medibang-logo.png";
+import javascript from "/dist/assets/images/Javascript-Logo.png";
+import android from "/dist/assets/images/android-studio-logo.png";
 
-import mongo from "../../public/assets/images/mongo-logo.png";
-import node from "../../public/assets/images/node-logo.png";
-import react from "../../public/assets/images/react-logo.png";
-import react_native from "../../public/assets/images/react-native-logo.png";
-import laravel from "../../public/assets/images/laravel-logo.png";
+import mongo from "/dist/assets/images/mongo-logo.png";
+import node from "/dist/assets/images/node-logo.png";
+import react from "/dist/assets/images/react-logo.png";
+import react_native from "/dist/assets/images/react-native-logo.png";
+import laravel from "/dist/assets/images/laravel-logo.png";
 
 
 export default function Skills () {
