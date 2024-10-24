@@ -1,0 +1,110 @@
+:root{
+  --blue-jay: #28536B;
+  --moonstone-blue: #7EA8BE;
+  --seashell: #F6F0ED;
+  --heathered-grey: #BBB193;
+
+  --nav-btn-general: 250px;
+  --nav-font-size: 22px;
+}
+
+@media screen and (max-width: 1146px) {
+  :root{
+    --nav-btn-general: 200px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  :root{
+    --nav-btn-general: 150px;
+    --nav-font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 716px) {
+  :root{
+    --nav-btn-general: 78px;
+    --nav-font-size: 11px;
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  position: relative;
+  padding-top: 70px;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  background-color: var(--seashell);
+}
+
+main #home{
+  scroll-margin-top: 230px;
+}
+
+main #about{
+  scroll-margin-top: 90px;
+}
+
+main #skills{
+  scroll-margin-top: 90px;
+}
+
+main #portfolio{
+  scroll-margin-top: 130px;
+}
+
+main #education{
+  scroll-margin-top: 210px;
+}
+
+main #seminar{
+  scroll-margin-top: 100px;
+}
+
+main p, main h2{
+  font-size: 19px;
+  color: var(--blue-jay);
+  font-family: Montserrat;
+}
+
+main h2{
+  font-size: 40px;
+  margin: 0px;
+}
+
+article p{
+  margin-top: 20px;
+} 
+
+div{
+  display: inline-block;
+}
+
+p{
+  display: inline-block;
+  margin: 0;
+}
+
+ul{
+  list-style-position: inside;
+  margin: 0;
+  padding-left: 0px;
+  height: 100%;
+}
+
+li{
+  flex: 1;
+  color: var(--blue-jay);
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 23px;
+}

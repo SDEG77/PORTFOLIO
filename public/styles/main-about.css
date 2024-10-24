@@ -1,0 +1,84 @@
+.about{
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+}
+
+.about p{
+  font-size: 22px;
+  text-align: center; 
+  width: 60%;
+  margin-bottom: 40px;
+}
+
+.main-horizontal-line{
+  background-color: var(--heathered-grey);
+  border: 2px solid var(--blue-jay); 
+  width: 400px; 
+  height: 6px; 
+  border-radius: 4px; 
+  margin: 14px 0 40px 0;
+}
+
+.about-images{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.sigrae{
+  width: 300px;
+  border: 10px solid var(--moonstone-blue);
+  border-radius: 40px;
+}
+
+.araullo-logo{
+  padding: 10px;
+  position: absolute;
+  width: 80px;
+  border: 6px solid var(--blue-jay);
+  border-radius: 55px;
+}
+
+.araullo-logo{
+  left: -120px;
+  bottom: 0;
+
+  animation-name: image-loop;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes image-loop {
+  0%{
+    left: -120px;
+    bottom: 0;
+  }
+
+  25%{
+    left: -120px;
+    bottom: 345px;
+  }
+
+  50%{
+    left: 330px;
+    bottom: 345px;
+  }
+
+  75% {
+    left: 330px;
+    bottom: 0;
+  }
+
+  100% {
+    left: 330px;
+    bottom: 0;
+  }
+}
+
+@media screen and (max-width: 655px){
+  .araullo-logo{
+    display: none;
+  }
+}

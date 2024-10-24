@@ -1,0 +1,103 @@
+.education{
+  margin-top: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.education .main-horizontal-line{
+  width: 670px;
+  margin-bottom: 55px;
+}
+
+.araullo-info{
+  text-align: left;
+  width: 620px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  border: 2px solid var(--blue-jay);
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+
+.araullo-university{
+  width: 145px;
+  
+}
+
+.araullo-info article{
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+article p{
+  margin: 0;
+}
+
+.araullo-info .course{
+  font-weight: 600;
+}
+
+.araullo-info .au-address{
+  font-size: 17px;
+  margin-bottom: 5%;
+}
+
+
+@media screen and (max-width: 746px) {
+  .education .main-horizontal-line{
+    width: 550px;
+  }
+  
+  .araullo-info{
+    width: 520px;
+    gap: 30px;
+  }
+
+  .araullo-university{
+    width: 155px;
+    height: 155px;
+
+  }
+
+  .araullo-info .au-address{
+    font-size: 17px;
+    margin-bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .education{
+    scroll-margin-top: 100px !important;
+  }
+
+  .h2{
+    text-decoration-style: 37px;
+  }
+
+  .education .main-horizontal-line{
+    width: 400px;
+  }
+  
+  .araullo-info{
+    flex-direction: column;
+    width: 300px;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .araullo-university{
+    width: 180px;
+    height: 170px;
+  }
+
+  .araullo-info .au-address{
+    font-size: 17px;
+    margin-bottom: 5%;
+  }
+}

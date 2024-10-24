@@ -1,0 +1,125 @@
+.topbar{
+  display: flex;
+  position: fixed;
+  z-index: 2;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 85px;
+  font-size: 19px;
+  letter-spacing: 2px;
+
+  background-color: var(--blue-jay);
+  color: var(--seashell);
+
+  top: 0;
+}
+
+.topbar a{
+  font-family: Verdana;
+}
+
+.topbar p{
+  font-family: Georgia;
+}
+
+.brand{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex: 1.5;
+
+  align-items: center;
+
+  text-align: center;
+}
+
+.my-name{
+  font-size: 21px;
+  letter-spacing: 3px; 
+  font-weight: 600;
+}
+
+.nav-btns{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  display: flex;
+  gap: 0px;
+  flex: 1;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.home-btn{
+  width: var(--nav-btn-general);
+}
+
+.nav-btns a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+  color: var(--seashell);
+  background-color: var(--blue-jay);
+  transition: 0.2s;
+}
+
+.nav-btns a:hover{
+  background-color: var(--moonstone-blue);
+}
+
+.nav-border{
+  width: 3px;
+  background-color: var(--seashell);
+  border-radius: 5px; 
+  height: 60%;
+  margin: 0 5px;
+}
+
+.nav-border-horizontal{
+  display: block;
+  border: 1px solid var(--seashell); 
+  height: 60%;
+}
+
+
+/*
+  --nav-btn-general: 250px;
+  --nav-font-size: 20px;
+*/
+
+@media screen and (max-width: 1146px){
+  .my-name{
+    font-size: 17px;
+  }
+
+  .nav-btns{
+    font-size: var(--nav-font-size);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .my-name{
+    font-size: 15px;
+  }
+
+  .nav-btns{
+    font-size: var(--nav-font-size);
+  }
+}
+
+@media screen and (max-width: 716px) {
+  .my-name{
+    font-size: 12px;
+  }
+
+  .nav-btns{
+    font-size: var(--nav-font-size);
+  }
+}

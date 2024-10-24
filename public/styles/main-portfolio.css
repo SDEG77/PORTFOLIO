@@ -1,0 +1,139 @@
+.portfolio{
+  margin-top: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-area{
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.subject-divs{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.subject-divs #ite-393{
+  justify-content: space-evenly;
+
+  flex: none;
+  width: 450px;
+  padding: 50px 10px;
+}
+
+.subject-divs #ite-308{
+  justify-content: space-evenly;
+
+  flex: none;
+  width: 331px;
+  padding: 20px 10px;
+}
+
+.subject{
+  background-color: var(--blue-jay);
+  border-radius: 20px;
+  padding: 20px 10px;
+  height: 150px;
+  flex: 1;
+  display: flex;
+  gap: 9px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 10px;
+
+}
+
+
+.subject .subject-code{
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--seashell);
+}
+
+.subject .subject-description{
+  color: var(--seashell);
+  font-size: 19px;
+}
+
+.subject .drive-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana;
+  text-decoration: none;
+  background-color: var(--heathered-grey);
+  border: 3px solid var(--seashell);
+  border-radius: 10px;
+  color: var(--seashell);
+  white-space: nowrap;
+  width: 120px;
+  height: 30px;
+  padding: 5px 15px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.subject .drive-link:hover{
+  color: var(--seashell);
+  background-color: var(--moonstone-blue);
+  border: 3px solid var(--seashell);
+}
+
+.subject .drive-link:active{
+  transition: 0.2s;
+  color: var(--seashell);
+  background-color: var(--blue-jay);
+  border: 3px solid var(--seashell);
+}
+
+@media screen and (max-width: 1050px) {
+  .subject{
+    flex: none;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 841px) {
+  .subject{
+    position: relative;
+  }
+
+  .subject button{
+     position: absolute;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .subject-divs{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .subject-divs #ite-393{
+    width: 300px;
+  }
+
+  .subject-divs #ite-393 .subject-description{
+    width: 270px;
+  }
+
+  .subject-divs #ite-308{
+    width: 300px;
+    
+  }
+
+  .subject{
+    width: 300px;
+    height: 190px;
+    padding: 30px 10px;
+  }
+}
